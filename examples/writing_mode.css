@@ -1,0 +1,19 @@
+.one{
+    writing-mode: vertical-rl;
+}
+.two{
+    writing-mode: vertical-lr;
+}
+.three{
+    writing-mode: horizontal-tb;
+}
+.four{
+    writing-mode: sideways-lr;
+}
+.five{
+    writing-mode: sideways-rl;
+}
+div{
+    background-color: burlywood;
+    margin: 8px;
+}

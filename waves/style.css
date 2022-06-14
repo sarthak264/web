@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+html,body {
+    max-width: 100vw;
+    overflow-x: hidden;
+}
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 500px;
+    padding: 0 20vw;
+}
+p{
+    font-size: 2rem;
+}
+.first{
+    background-color:darkblue;
+    color: whitesmoke;
+    margin-top: -50px;
+}
+.wave{
+    background-color:darkblue;
+    background-image: url('./layered-waves-haikei.svg');
+    background-size: cover;
+    background-position: top;
+    aspect-ratio: 3/2;
+    width: 100vw;
+    height: 150px;
+    z-index: 9999;
+    position: relative;
+}

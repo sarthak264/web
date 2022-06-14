@@ -1,0 +1,45 @@
+@media screen and (max-width:500px) {
+    .container{
+        flex-direction: column;
+        max-width: 90vw;
+        padding: 0;
+    }
+    .right{
+        height: 300px;
+        width: 100%;
+    }
+    .left{
+        padding: 1.1rem;
+        text-align: center;
+        
+    }
+    .left h2{
+        margin-top: 2rem;
+        font-size: 2.2rem;
+    }
+    .left p{
+        padding: 0 0.8rem;
+        margin-top: 1.3rem;
+        font-size: 1.2rem;
+        line-height: 2rem;
+        margin-bottom: 1.5rem;
+    }
+    ul{
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+    .container ul li{
+        margin-top: 1.7rem;
+        padding: 0;
+        line-height: 1.6rem;
+    }
+    .container ul li:first-child{
+        margin-top: 10px;
+    }
+    .container ul li:last-child{
+        padding-bottom: 1.5rem;
+    }
+    .container ul li span{
+        font-size: 1rem;
+    }
+}

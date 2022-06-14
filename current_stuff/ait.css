@@ -1,0 +1,339 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;500&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Raleway', sans-serif;
+  overflow-x: hidden;
+}
+
+.header {
+  background-color: #808080;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: auto;
+  width: 100vw;
+}
+
+.header .list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.header .list .list__items {
+  list-style: none;
+  color: white;
+  padding: 12px 10px;
+  font-size: 1.2em;
+}
+
+.header .list .list__items .gif {
+  height: 25px;
+  margin-right: 5px;
+}
+
+.header .list .list__items:hover {
+  background-color: white;
+  color: #084477;
+  -webkit-transition: 0.17s ease-in;
+  transition: 0.17s ease-in;
+}
+
+.one {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+.heading {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  min-width: 90vw;
+}
+
+.heading .logo {
+  margin: 0 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+.heading .logo .logo__pic {
+  width: 180px;
+  height: auto;
+}
+
+.heading .details h2 {
+  font-size: 2em;
+  font-weight: 600;
+}
+
+.heading .details .small {
+  font-size: 0.8em;
+}
+
+@media (max-width: 500px) {
+  .heading {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .heading .logo {
+    -ms-grid-column-align: center;
+        justify-self: center;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+  }
+  .heading .details {
+    max-width: 90vw;
+    -ms-grid-column-align: center;
+        justify-self: center;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+  }
+  .heading .details h2 {
+    margin-bottom: 10px;
+  }
+}
+
+.footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #b2aeae;
+  width: 100vw;
+  height: 100px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.footer .text {
+  display: inline-block;
+  text-align: center;
+  font-weight: 500;
+}
+
+.footer .text a {
+  color: #0505fd;
+}
+
+.footer .text p {
+  margin: 5px;
+}
+
+.main__nav {
+  width: 100vw;
+  background-color: #084477;
+}
+
+.main__nav ul {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.main__nav ul li {
+  font-weight: 400;
+  font-family: "Raleway", sans-serif;
+  color: white;
+  text-align: center;
+  display: inline-block;
+  padding: 10px 13px;
+  position: relative;
+}
+
+.main__nav ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+.main__nav ul li ul {
+  display: none;
+}
+
+.main__nav ul li:hover {
+  cursor: pointer;
+  background-color: black;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.main__nav ul li:hover ul {
+  display: block;
+  margin-top: 9px;
+  width: auto;
+  left: 0;
+  position: absolute;
+  z-index: 1;
+}
+
+.main__nav ul li:hover ul li {
+  display: block;
+  background-color: white;
+  text-align: left;
+  width: auto;
+  border-bottom: 2px solid #084477;
+}
+
+.main__nav ul li:hover ul li:last-child {
+  border-bottom: 1px solid #084477;
+}
+
+.main__nav ul li:hover ul li a {
+  color: black;
+  font-weight: 400;
+}
+
+.main__nav ul li:hover ul li:hover {
+  background-color: #084477;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.main__nav ul li:hover ul li:hover a {
+  color: white;
+}
+
+.row__1 {
+  max-width: 100vw;
+}
+
+.row_1 {
+  max-width: 100vw;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 500;
+  margin-top: 10px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  -ms-grid-rows: 400px 400px;
+      grid-template-rows: 400px 400px;
+  -webkit-column-gap: 7px;
+          column-gap: 7px;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.container__2 {
+  height: 400px;
+}
+
+.college__image {
+  width: 100%;
+  max-height: 400px;
+}
+
+.container__2 {
+  background-color: #808080;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column wrap;
+          flex-flow: column wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: white;
+}
+
+.info {
+  display: block;
+  text-align: center;
+  margin: 10px;
+}
+
+.vm {
+  display: inline-block;
+  position: relative;
+  text-align: center;
+  padding-bottom: 7px;
+  font-weight: 700;
+}
+
+.vm::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: -2px;
+  width: 110%;
+  height: 3px;
+  background-color: red;
+}
+
+ul {
+  display: block;
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+  margin-left: 20px;
+}
+
+.hover {
+  position: relative;
+  display: block;
+  width: 100%;
+}
+
+.hover::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background-color: #084477;
+}
+
+li {
+  list-style: none;
+  font-weight: 500;
+  padding-top: 7px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+/*# sourceMappingURL=ait.css.map */

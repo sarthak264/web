@@ -1,0 +1,57 @@
+
+.container {
+   padding: 2rem;
+   height: auto;
+}
+.card{
+    flex-direction: column-reverse; 
+}
+
+#image {
+    /* width: 100%;
+    background-image: url(../images/image-header-desktop.jpg);
+    background-position: center;  
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative; */
+    width: 100%;
+    height: 18rem;
+}
+
+#info {
+    padding: 1.5rem;
+    text-align: center;
+}
+
+.text{
+    font-size: 0.9rem;
+    line-height: 2rem;
+    margin-bottom: 2rem;
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+.head-text {
+    font-size: 1.7rem;
+    line-height: 2.7rem;
+}
+
+.statistic{
+
+    text-align: center;
+    
+}
+.statistic li{
+    display: block;
+    margin-bottom: 2rem;
+    width: 100%;
+}
+
+.statistic h1 {
+    font-size: 20px;
+}
+
+.statistic li p {
+    font-size: 15px;
+    margin-top: 2px;
+}
+

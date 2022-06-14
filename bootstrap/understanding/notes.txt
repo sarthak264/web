@@ -1,0 +1,75 @@
+##### Accordian #####
+accordian is a little complex so just copy it from bootstrap website and customize it then.
+
+##### Alerts #####
+basic class is alert
+theme is alert-{success/info/etc}
+icon can be added
+close button is 
+    =>button.btn-close
+    =>data-bs-dismiss="alert"
+
+##### Badges #####
+.badge is base
+select bg theme
+apply following class to push it to upper corner
+    =>top-0 start-100 translate-middle
+
+##### Breadcrumb #####
+breadcrumbs are like directory address for websites
+make a list with breadcrumb class
+add breadcrumb-item class to list items  
+the divider can be changed by styling the list with the 
+    =>--bs-breadcrumb-divider:'^';
+
+##### Badges #####
+
+##### Background #####
+background can be set using color classes like success, info, danger etc.
+.bg-gradient can change the plain color to a gradient
+
+##### Border #####
+border can be set for
+=all sides                            border
+=a particular side                    border-top
+=three sides leaving one side         border-top-0
+color can also be set                 border-success
+it has 5 width border-1 to border-5
+border radius can also be set from rounded-0 to rounded-3
+two options pill and circle are also there
+border-radius can be used with postion classes too
+like border-start so it will only affect the left sided corners
+
+##### Colors #####
+colors classes can be used for background, text or link
+bg-info
+text-dark
+link-success
+
+##### User Select #####
+user select has three options
+user-select-all = this will select all content of an element
+user-select-none and -auto
+
+##### pointer events #####
+it has only two options auto and none
+pe-none pe-auto
+this property is inheritable by default
+
+##### Float #####
+kinda boring 
+only two options 
+start or end
+
+##### overflow #####
+overflow has three options excluding auto which is basically default
+visible which doesn't scroll only shows
+hidden 
+and scroll which gives scrollbar on x and y axis for set height width elements
+
+##### visibility #####
+visible and invisible simple😁
+
+##### shadow #####
+shadow is none by default
+and then sm, regular and lg

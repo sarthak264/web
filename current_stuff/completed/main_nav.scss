@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700&display=swap');
+
+$background-purple: rgb(255, 255, 255);
+$subtle-white: #084477;
+$subtle-grey: black;
+$masked-grey: white;
+$blue: #F03861;
+
+$open-sans: 'Raleway', sans-serif;
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-weight: 600;
+}
+html{
+    background-color: $background-purple;
+}
+// .container{
+//     width: 100vw;
+//     height: 100vh;
+// }
+.main__nav{
+    width: 100%;
+    background-color: $subtle-white;
+    ul{
+        list-style: none;
+        display: flex;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+        li{
+            font-weight: 400;
+            font-family: $open-sans;
+            color: $masked-grey;
+
+            text-align: center;
+            display: inline-block;
+            padding: 10px 13px;
+            position: relative;
+            a{
+                text-decoration: none;
+                color: $masked-grey;
+            }
+            ul{
+                display: none;
+            }
+            &:hover{
+                cursor: pointer;
+                background-color: $subtle-grey;
+                transition: 0.5s;
+
+                ul{
+                    display: block;
+                    margin-top: 9px;
+
+                    width: auto;
+                    left: 0;
+
+                    position: absolute;
+                    z-index: 1;
+                    li{
+                        display: block;
+                        background-color: white;
+                        text-align: left;
+                        width: auto;
+                        border-bottom: 2px solid #084477;
+
+                        &:last-child{
+                            border-bottom: 1px solid #084477;
+                        }
+
+                        a{
+                            color: black;
+                            font-weight: 400;
+                            
+                        }
+
+                        &:hover{
+                            background-color: #084477;
+                            transition: 0.3s;
+
+                            a{
+                                color: white;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

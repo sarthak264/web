@@ -1,0 +1,232 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@600;400;700;200&family=PT+Serif&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  overflow-x: hidden;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.banner {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.7)), to(rgba(0, 0, 0, 0.7))), url("../images/contact.gif");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../images/contact.gif");
+  background-size: cover;
+  background-position: center;
+  width: 100vw;
+  height: 70vh;
+  position: relative;
+}
+
+.banner .text {
+  position: absolute;
+  width: 100vw;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+  font-weight: 600;
+  font-size: 3rem;
+}
+
+.navbar {
+  background: transparent;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100vw;
+  height: 15vh;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.navbar ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-right: 2rem;
+}
+
+.navbar ul li {
+  list-style: none;
+  margin: 0 1rem;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  color: white;
+  font-weight: 700;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.navbar .logo-image {
+  width: 6rem;
+}
+
+.navbar .logo {
+  position: relative;
+}
+
+.footer {
+  width: 100vw;
+  height: 20vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+  color: #73757D;
+  font-size: 1.1rem;
+  background-color: #222328;
+}
+
+.footer .bold {
+  font-weight: 600;
+}
+
+.footer .svg {
+  margin: 0 .7rem;
+}
+
+.wrapper {
+  color: #A1AABA;
+  height: 100vh;
+  width: 100vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  overflow: hidden;
+}
+
+.wrapper .text {
+  font-size: 2.7rem;
+  color: #404040;
+  line-height: 3.5rem;
+  margin-bottom: 3rem;
+  font-weight: 700;
+}
+
+.wrapper .container {
+  margin-top: 25vh;
+  height: 100%;
+  width: 40%;
+  overflow: hidden;
+}
+
+.wrapper .container label {
+  font-size: 0.8rem;
+  margin-left: 6px;
+}
+
+.wrapper .container ::-webkit-input-placeholder {
+  color: #A1AABA;
+  font-weight: 200;
+}
+
+.wrapper .container :-ms-input-placeholder {
+  color: #A1AABA;
+  font-weight: 200;
+}
+
+.wrapper .container ::-ms-input-placeholder {
+  color: #A1AABA;
+  font-weight: 200;
+}
+
+.wrapper .container ::placeholder {
+  color: #A1AABA;
+  font-weight: 200;
+}
+
+.wrapper .container .form .form-input {
+  font-size: 1.1rem;
+  font-weight: 400;
+  width: 90%;
+  border: 1px solid #E3E8F0;
+  border-radius: 0.5rem;
+  padding: 0.6rem 0.5rem;
+}
+
+.wrapper .container .form .form-input:focus {
+  outline: none;
+  border: none;
+  -webkit-box-shadow: 0px 0px 17px 0px rgba(50, 50, 50, 0.61);
+          box-shadow: 0px 0px 17px 0px rgba(50, 50, 50, 0.61);
+}
+
+.wrapper .container .text-area {
+  width: 100%;
+  background-color: #f0f2f7a8;
+  border: 1px solid #E3E8F0;
+  border-radius: 8px;
+  height: 5rem;
+  padding: 0.2rem 0.5rem;
+}
+
+.wrapper .container .text-area ::-webkit-input-placeholder {
+  color: #041c46;
+}
+
+.wrapper .container .text-area :-ms-input-placeholder {
+  color: #041c46;
+}
+
+.wrapper .container .text-area ::-ms-input-placeholder {
+  color: #041c46;
+}
+
+.wrapper .container .text-area ::placeholder {
+  color: #041c46;
+}
+
+.wrapper button {
+  color: white;
+  background-color: #418df0;
+  height: 40px;
+  width: 150px;
+  margin-top: 2rem;
+  border-radius: 4px;
+  text-align: center;
+  border: none;
+  font-size: 13px;
+  letter-spacing: 1px;
+  font-weight: 600;
+}
+
+.wrapper button:hover {
+  background-color: #0a70f4;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.wrapper button:active {
+  background-color: #0854b8;
+  -webkit-transition: 0.1s;
+  transition: 0.1s;
+}
+
+.form {
+  margin: .5rem 0;
+}
+/*# sourceMappingURL=contact.css.map */

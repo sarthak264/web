@@ -1,0 +1,129 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+*, *::after, *::before {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  position: relative;
+}
+
+body {
+  background-color: lightblue;
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+  min-height: 100vh;
+}
+
+.container {
+  background-color: white;
+  width: 100%;
+  max-width: 1050px;
+  min-height: 1000px;
+  margin: 50px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 2fr;
+      grid-template-columns: 1fr 2fr;
+  -webkit-box-shadow: 0 35px 55px rgba(0, 0, 0, 0.1);
+          box-shadow: 0 35px 55px rgba(0, 0, 0, 0.1);
+}
+
+.container .left {
+  padding: 40px;
+  background-color: #003147;
+}
+
+.container .left .profile {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-bottom: 20px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.container .left .profile h2 {
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: 600;
+  text-align: center;
+  margin-top: 20px;
+  line-height: 1.4em;
+}
+
+.container .left .profile h2 span {
+  font-size: 0.8em;
+  font-weight: 300;
+}
+
+.container .left .profile .imgbox {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.container .left .contactinfo {
+  padding-top: 40px;
+}
+
+.container .left .contactinfo h3 {
+  color: #fff;
+  font-weight: 600;
+  margin-bottom: 20px;
+  letter-spacing: 0.7px;
+}
+
+.container .left .contactinfo ul li {
+  position: relative;
+  list-style: none;
+  margin: 10px 0;
+}
+
+.container .left .contactinfo ul li .icon {
+  display: inline-block;
+  width: 25px;
+  font-size: 18px;
+  color: #09a9f4;
+}
+
+.container .left .contactinfo ul li .info {
+  color: #fff;
+  font-weight: 300;
+}
+
+.container .left .education ul li {
+  margin-bottom: 15px;
+}
+
+.container .left .education h5 {
+  color: #03a9f4;
+  font-weight: 500;
+}
+
+.container .left .education h4:nth-child(2) {
+  color: #fff;
+  font-weight: 500;
+}
+
+.container .left .education h4 {
+  color: #fff;
+  font-weight: 300;
+}
+
+.container .right {
+  padding: 40px;
+  background-color: #fff;
+}
+/*# sourceMappingURL=style.css.map */
